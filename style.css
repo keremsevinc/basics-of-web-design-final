@@ -1,0 +1,403 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #181b20;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+  padding: 0px;
+  text-transform: lowercase;
+  font-family: "Abel", sans-serif;
+  font-weight: 400;
+  color: #ef2424;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 2.4em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+p,
+ul,
+ol {
+  margin-top: 0;
+  line-height: 180%;
+}
+
+ul,
+ol {
+}
+
+a {
+  text-decoration: none;
+  color: #9c9a9a;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img.border {
+  border: 6px solid #eee7df;
+}
+
+img.alignleft {
+  float: left;
+  margin-right: 25px;
+}
+
+img.alignright {
+  float: right;
+}
+
+img.aligncenter {
+  margin: 0px auto;
+}
+
+#icerik {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Header Kısmı */
+
+#header-icerigi {
+  height: 240px;
+  background: #d35400;
+  margin-bottom: 30px;
+}
+
+#header {
+  width: 960px;
+  height: 240px;
+  margin: 0 auto;
+}
+
+/* Logo Ek (Yazı ayarı değil) */
+#logo {
+  width: 980px;
+  height: 100px;
+  margin: 0px auto;
+  padding: 80px 0px 0px 0px;
+  color: #72e8f3;
+}
+/* Başlık özellikleri */
+#logo h1 {
+  letter-spacing: -7px;
+  text-align: center;
+  font-size: 90px;
+}
+
+/* Yazı rengi ayarı */
+#logo h1 a {
+  color: #f1c40f;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* Menü kısmı */
+
+#menu-icerik-1 {
+  width: 1500px;
+  height: 60px;
+  margin: 0px auto;
+  padding: 5px;
+  background: #d35400;
+  border-radius: 0px;
+}
+
+#menu {
+  margin: 0;
+  padding: 0px 500px;
+  list-style: none;
+  line-height: 60px;
+  letter-spacing: -2px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+#menu li {
+  float: left;
+  margin-right: 1px;
+}
+
+#menu a {
+  display: flex;
+  float: left;
+  height: 60px;
+  margin: 0px;
+  color: #ffffff;
+}
+/* üzerine gelmeden önce*/
+#menu .mevcut_sayfa a {
+  background: #d35400;
+}
+/* üzerine geldiğinde */
+#menu a:hover {
+  background: #f1c40f;
+  text-decoration: none;
+  color: #d35400;
+}
+/* yazılar için yer ayarı*/
+#menu span {
+  padding: 0px 20px;
+}
+
+#menu > li.active {
+  background: #15f3f3;
+  color: #ffffff;
+}
+
+/* Sayfa içi (sayfayı ortalar) */
+
+#sayfa {
+  width: 1024px;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+/* sayfa içeriği */
+
+#content {
+  float: right;
+  width: 650spx;
+}
+/* sayfa içeriğinin ortalaması */
+#content .contentbg {
+  width: 590px;
+  padding: 10px 30px 0px 30px;
+}
+
+/* metinlerin ayıran çizgiler */
+.gonderi {
+  clear: both;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #d35400;
+}
+
+/* metinlerin başlık ayarı */
+.gonderi .baslik {
+  padding-top: 15px;
+  letter-spacing: -5px;
+  text-transform: none;
+  font-size: 60px;
+  color: #d35400;
+}
+/* başlıkların renk ayarı */
+.gonderi .baslik a {
+  border: none;
+  color: #d35400;
+  text-decoration: none;
+}
+
+.gonderi .girdi {
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 10px 0px 0px 0px;
+}
+
+/* sidebar yan taraf */
+
+#sidebar-bg {
+  float: left;
+  width: 300px;
+}
+
+#sidebar {
+  overflow: hidden;
+  width: 210px;
+  padding: 30px 30px 20px 30px;
+}
+
+#sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#sidebar li {
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar li ul {
+  margin: 0px 0px;
+  padding-bottom: 30px;
+}
+
+#sidebar li li {
+  line-height: 30px;
+}
+
+#sidebar h2 {
+  height: 40px;
+  margin-bottom: 30px;
+  padding: 12px 0 0 0px;
+  border-bottom: 3px solid #d35400;
+  letter-spacing: 1px;
+  font-size: 30px;
+  color: #d35400;
+  text-transform: none;
+}
+
+#sidebar p {
+  margin: 0 0px;
+  padding: 0px 20px 20px 20px;
+  text-align: justify;
+}
+
+/* yazıların üstüne geldiğinde altına çizgi */
+#sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+
+#footer {
+  height: 100px;
+  background: #d35400;
+}
+
+#footer p {
+  margin: 0;
+  padding-top: 18px;
+  line-height: normal;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: #f1c40f;
+}
+
+/* sayfadaki resmi ortalar */
+#foto {
+  width: 1460px;
+  margin: 30px auto 0px auto;
+}
+
+/* galeri sayfası */
+.gorsel-ana-bolum {
+  font-family: "Abel", sans-serif;
+  width: 1024px;
+  margin: 0 auto;
+  display: table;
+  padding: 100px;
+}
+.gorsel-ana-bolum .kutu {
+  float: left;
+  width: 228px;
+  height: 250px;
+  border: 1px solid #848484;
+  padding: 10px;
+  margin-right: 8px;
+}
+.gorsel-ana-bolum .kutu:nth-child(5n + 4) {
+  margin-right: 0;
+}
+.gorsel-ana-bolum .kutu * {
+  display: table;
+  margin: 0 auto;
+}
+.gorsel-ana-bolum .kutu .baslik {
+  margin-top: 10px;
+  font-size: 30px;
+  color: #2c2c2c;
+  text-decoration: none;
+}
+.gorsel-ana-bolum .kutu .aciklama {
+  margin-top: 3px;
+  font-size: 14px;
+  color: #292828;
+  text-decoration: none;
+}
+.gorsel-ana-bolum .kutu .link {
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 3px 10px;
+  background: #d35400;
+  color: #f1f1f1;
+}
+.gorsel-ana-bolum .kutu .fotograf {
+  width: 100%;
+  height: auto;
+}
+.gorsel-ana-bolum .kutu .fotograf img {
+  width: 100%;
+  height: auto;
+}
+.ayirici {
+  width: 100%;
+  height: 30px;
+  float: left;
+}
+
+/* iletisim sayfasi */
+#icerik-tasiyici {
+  height: 482px;
+  width: 855px;
+  margin: 0 auto;
+  padding: 55px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Abel", sans-serif;
+}
+.boyut {
+  width: 383px;
+}
+.iletisim {
+  color: #d35400;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.yildiz {
+  font-size: 15px;
+  color: #ff0000;
+}
+.zorunlu-alan {
+  color: #d35400;
+  text-align: right;
+}
+.gonder {
+  color: #fff;
+  background-color: #d35400;
+  height: 40px;
+  text-align: center;
+  width: 70px;
+  border: none;
+}
+.mesaj {
+  color: #999;
+  text-align: right;
+  font-size: 20px;
+  padding-bottom: 100px;
+}
+
+.yazi {
+  text-align: right;
+  font-size: 20px;
+  color: #999;
+}
+.usain {
+  width: ;
+  margin: auto;
+}
+.saga-kaydir {
+  float: right;
+  padding: ;
+}
