@@ -396,8 +396,10 @@ img.aligncenter {
 .usain {
   width: ;
   margin: auto;
+  text-align: center;
 }
 .saga-kaydir {
   float: right;
   padding: ;
 }
+
