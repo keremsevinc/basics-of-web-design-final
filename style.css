@@ -12,7 +12,7 @@ h2,
 h3 {
   margin: 0px;
   padding: 0px;
-  text-transform: lowercase;
+  
   font-family: "Abel", sans-serif;
   font-weight: 400;
   color: #ef2424;
@@ -75,9 +75,9 @@ img.aligncenter {
 /* Header Kısmı */
 
 #header-icerigi {
-  height: 240px;
+  height: 200px;
   background: #d35400;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 #header {
@@ -91,14 +91,14 @@ img.aligncenter {
   width: 980px;
   height: 100px;
   margin: 0px auto;
-  padding: 80px 0px 0px 0px;
-  color: #72e8f3;
+  padding: 90px 0px 0px 0px;
+  color: #d35400;
 }
 /* Başlık özellikleri */
 #logo h1 {
-  letter-spacing: -7px;
+  letter-spacing: 4px;
   text-align: center;
-  font-size: 90px;
+  font-size: 100px;
 }
 
 /* Yazı rengi ayarı */
@@ -116,7 +116,7 @@ img.aligncenter {
   margin: 0px auto;
   padding: 5px;
   background: #d35400;
-  border-radius: 0px;
+  border-radius: 7px;
 }
 
 #menu {
@@ -129,7 +129,7 @@ img.aligncenter {
   font-family: "Times New Roman", Times, serif;
   font-size: 23px;
   font-weight: normal;
-  color: #ffffff;
+  color: #d35400;
 }
 
 #menu li {
@@ -160,7 +160,7 @@ img.aligncenter {
 }
 
 #menu > li.active {
-  background: #15f3f3;
+  background: #d35400;
   color: #ffffff;
 }
 
@@ -316,13 +316,13 @@ img.aligncenter {
 .gorsel-ana-bolum .kutu .baslik {
   margin-top: 10px;
   font-size: 30px;
-  color: #2c2c2c;
+  color: #d35400;
   text-decoration: none;
 }
 .gorsel-ana-bolum .kutu .aciklama {
   margin-top: 3px;
   font-size: 14px;
-  color: #292828;
+  color: #d35400;
   text-decoration: none;
 }
 .gorsel-ana-bolum .kutu .link {
